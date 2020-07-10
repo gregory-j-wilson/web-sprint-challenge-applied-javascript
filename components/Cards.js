@@ -87,9 +87,15 @@ function cardMaker(eachCard) {
     author.appendChild(imgContainer)
     imgContainer.appendChild(image)
     author.appendChild(authorsName)
+
+    card.addEventListener('click', function() {
+        console.log(headline)
+    })
     
     
     return card
 }
+
+
 
 
