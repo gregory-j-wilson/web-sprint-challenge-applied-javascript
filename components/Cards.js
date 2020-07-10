@@ -68,7 +68,7 @@ function cardMaker(eachCard) {
 
         const headline = document.createElement('div')
         headline.classList.add('headline')
-        headline.textContent = eachCard
+        headline.textContent = eachCard.headline
 
         const author = document.createElement('div')
         author.classList.add('author')
